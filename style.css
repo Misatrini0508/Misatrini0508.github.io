@@ -1,36 +1,41 @@
 body {
-  text-align: center;
   background: url('rawpixel-653764-unsplash.jpg') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Patua One', cursive;
   font-weight: bolder;
+  box-sizing: border-box;
 }
 
 .container {
-  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 h1 {
   color: orange;
-  /* font-size: 3rem; */
+  font-size: 3em;
   text-shadow: -5px -2px black;
 }
 
-h3 {
+p {
   color: white;
+  font-size: 1.5em;
   text-shadow: -3px -2px grey;
 }
 
 
-.btn btn-info btn-lg{
-  width: 200px;
-  margin: 0 auto;
+.btn {
+  width: 15rem;
   color: white;
-  border-radius: 20px;
+  border-radius: 50px;
   border: 1px solid limegreen;
+  background-color: #40BFBA;
 }
 
-.btn btn-info btn-lg:hover {
-  background-color: #C2F0FB;
-  border-color: lightgreen;
+.btn:hover {
+  background-color: #00F7EE;
+  border-color: #00B1AA;
 }
